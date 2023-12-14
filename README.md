@@ -7,6 +7,8 @@ This Bash script automates the installation of PHP 8.2 with Apache and common ex
 Before running this script, ensure that you have the necessary permissions and dependencies set up.
 
 ```bash
+git clone https://github.com/Lalatenduswain/How-to-Install-PHP-8.2-on-Ubuntu-22.04.git
+cd How-to-Install-PHP-8.2-on-Ubuntu-22.04
 chmod +x install_php.sh
 ./install_php.sh
 ```
