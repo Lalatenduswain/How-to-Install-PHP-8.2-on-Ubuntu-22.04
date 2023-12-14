@@ -21,6 +21,7 @@ sudo apt install -y \
     php8.2-curl \
     php8.2-xml \
     php8.2-bcmath \
+    php-zip \
     php8.2-json
 
 # Optionally, restart the web server (e.g., Apache)
