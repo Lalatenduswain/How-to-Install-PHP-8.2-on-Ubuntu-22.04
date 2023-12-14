@@ -27,7 +27,11 @@ sudo apt install -y \
 # sudo systemctl restart apache2
 
 # Verify PHP installation
-php -v
+    php -v
 
-echo "PHP 8.2 has been installed successfully."
-exit 0
+    echo "PHP 8.2 has been installed successfully."
+    exit 0
+else
+    echo "Error: PHP installation failed."
+    exit 1
+fi
