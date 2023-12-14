@@ -12,6 +12,12 @@ cd How-to-Install-PHP-8.2-on-Ubuntu-22.04
 chmod +x install_php.sh
 ./install_php.sh
 ```
+## PHP CLI program that utilizes some features specific to PHP 8.2
+
+```bash
+php greet.php Lalatendu "Good morning"
+```
+
 
 ## Donations
 
